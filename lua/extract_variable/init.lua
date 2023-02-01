@@ -64,7 +64,7 @@ end
 
 -- add setup function
 M.setup = function()
-	vim.keymap.set("n", "<C><CR>", ':lua require("extract_variable").extract_variable()<CR>')
+	vim.keymap.set("n", "<Leader>vv", ':lua require("extract_variable").extract_variable()<CR>')
 end
 
 return M
